@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# Campus Market
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Student Information
 
-## Get started
+**Name:** Jorge Del La Cruz  
+**Course:** Mobile Web Development  
+**Project Title:** Marketplace-App
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+# Project Description
 
-2. Start the app
+Campus Market is a mobile marketplace application built using React Native and Expo. The application allows users to create accounts, browse marketplace listings, add items for sale, edit and delete their own listings, and contact sellers. Firebase Authentication is used for secure user login and registration, while Firebase Firestore stores marketplace data in real time.
 
-   ```bash
-   npx expo start
-   ```
+The purpose of this project is to demonstrate mobile app development concepts including navigation, Firebase integration, CRUD functionality, reusable components, state management, and responsive mobile UI design.
 
-In the output, you'll find options to open the app in a
+---
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Main Features
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- User registration and login
+- Firebase Authentication integration
+- Browse marketplace listings
+- Search marketplace items
+- View detailed item information
+- Add new marketplace listings
+- Edit existing listings
+- Delete listings
+- View personal listings
+- Contact seller feature
+- Real-time Firestore updates
+- Responsive mobile-friendly interface
 
-## Get a fresh project
+---
 
-When you're ready, run:
+# Technologies Used
 
-```bash
-npm run reset-project
+- React Native
+- Expo
+- Firebase Authentication
+- Firebase Firestore
+- React Navigation
+- JavaScript
+- Expo Go
+
+---
+
+# Firebase Services Used
+
+## Firebase Authentication
+
+Used for:
+
+- User registration
+- User login
+- User logout
+- Secure authentication
+
+## Firebase Firestore
+
+Used for:
+
+- Storing marketplace listings
+- Real-time database updates
+- CRUD functionality
+
+---
+
+# Firestore Collection Structure
+
+Collection Name:
+
+```txt
+items
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
