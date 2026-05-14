@@ -10,7 +10,7 @@
 
 # Project Description
 
-Campus Market is a mobile marketplace application built using React Native and Expo. The application allows users to create accounts, browse marketplace listings, add items for sale, edit and delete their own listings, and contact sellers. Firebase Authentication is used for secure user login and registration, while Firebase Firestore stores marketplace data in real time.
+Marketplace-App is a mobile marketplace application built using React Native and Expo. The application allows users to create accounts, browse marketplace listings, add items for sale, edit and delete their own listings, and contact sellers. Firebase Authentication is used for secure user login and registration, while Firebase Firestore stores marketplace data in real time.
 
 The purpose of this project is to demonstrate mobile app development concepts including navigation, Firebase integration, CRUD functionality, reusable components, state management, and responsive mobile UI design.
 
